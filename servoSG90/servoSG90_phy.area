@@ -1,0 +1,36 @@
+standard
+***Report Model: servoCtrl***
+
+IO Statistics
+#IO                     4
+  #input                2
+  #output               2
+  #inout                0
+
+Utilization Statistics
+#lut                  127   out of  19600    0.65%
+#reg                   69   out of  19600    0.35%
+#le                   162
+  #lut only            93   out of    162   57.41%
+  #reg only            35   out of    162   21.60%
+  #lut&reg             34   out of    162   20.99%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                    4   out of    188    2.13%
+  #ireg                 0
+  #oreg                 0
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+
+Detailed IO Report
+
+Name       Direction     Location     IOStandard     DriveStrength     PackReg                  
+clk        INPUT         K14          LVCMOS25       N/A               NONE                     
+resetb     INPUT         N11          LVCMOS33       N/A               NONE                     
+clk_o      OUTPUT        L10          LVCMOS33       8                 NONE                     
+pwm        OUTPUT        M12          LVTTL33        8                 NONE                     
+

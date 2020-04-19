@@ -1,0 +1,33 @@
+standard
+***Report Model: servoCtrl***
+
+IO Statistics
+#IO                     4
+  #input                2
+  #output               2
+  #inout                0
+
+Gate Statistics
+#Basic gates           88
+  #and                 10
+  #nand                 0
+  #or                   2
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  7
+  #bufif1               0
+  #MX21                 0
+  #FADD                 0
+  #DFF                 69
+  #LATCH                0
+#MACRO_ADD             11
+#MACRO_EQ               6
+
+Report Hierarchy Area:
++--------------------------------------------+
+|Instance |Module    |gates  |seq    |macros |
++--------------------------------------------+
+|top      |servoCtrl |19     |69     |17     |
++--------------------------------------------+
