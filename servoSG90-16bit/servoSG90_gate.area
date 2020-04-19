@@ -1,0 +1,33 @@
+standard
+***Report Model: servoCtrl***
+
+IO Statistics
+#IO                     4
+  #input                2
+  #output               2
+  #inout                0
+
+Utilization Statistics
+#lut                  226   out of  19600    1.15%
+#reg                   98   out of  19600    0.50%
+#le                   270
+  #lut only           172   out of    270   63.70%
+  #reg only            44   out of    270   16.30%
+  #lut&reg             54   out of    270   20.00%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                    4   out of    188    2.13%
+  #ireg                 0
+  #oreg                 0
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+Report Hierarchy Area:
++-----------------------------------------+
+|Instance |Module    |le    |lut   |seq   |
++-----------------------------------------+
+|top      |servoCtrl |270   |226   |98    |
++-----------------------------------------+
