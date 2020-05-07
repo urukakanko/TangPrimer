@@ -1,9 +1,0 @@
-set_pin_assignment	{ clk }	{ LOCATION = K14; IOSTANDARD = LVCMOS25; }
-set_pin_assignment	{ clk_o }	{ LOCATION = L10; }
-set_pin_assignment	{ pwm }	{ LOCATION = M12; IOSTANDARD = LVTTL33; }
-set_pin_assignment	{ resetb }	{ LOCATION = N11; }
-
-
-
-
-
